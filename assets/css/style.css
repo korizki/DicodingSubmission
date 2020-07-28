@@ -1,0 +1,169 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+/* Style HTML*/
+*{
+    box-sizing:border-box;
+    font-family:'Mulish', sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    min-width:445px;
+}
+.jumbotron{
+    height:300px;
+    text-align:center;
+    color:white;
+    width:100%;
+    padding: 20px 0px;
+    margin:0;
+    background-image:url('team7.jpg');
+    background-size:cover;
+}
+header{
+    display:inline;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    color:grey;
+}
+nav{
+    background-color:rgba(27, 27, 27, 0.808);
+    text-align:center;
+    position:sticky;
+    top:0;
+    padding:2px;
+}
+ul{
+    padding-inline-start:0px;
+}
+li {
+    list-style:none;
+    color:white;
+    display:inline;
+    padding:20px;
+    margin:20px 40px;
+}
+button{
+    font-size:14px;
+    padding:16px 32px;
+    border-radius:8px;
+    background-color:#3fd16c;
+    color:white;
+    box-shadow:0px 5px 1px 0px #24793e;
+    border:none;
+    opacity:0.7;
+}
+button:hover{
+    opacity:1;
+    cursor:pointer;
+}
+main{
+    overflow:auto;
+}
+button:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+    transition:all 0.3;
+}
+.title{
+    padding-top:25px;
+    font-size:30px;
+    color:cornflowerblue;
+}
+.card{
+    padding:10px 20px 25px 20px;
+    margin:30px 20px;
+    border-radius:10px;
+    box-shadow:0px 0px 20px 2px #c5c5c5;
+}
+article p{
+    text-align:justify;
+}
+#content{
+    width:75%;
+    float:left;
+}
+aside{
+    width:25%;
+    float:right;
+}
+.input{
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    border:1px solid rgba(27, 27, 27, 0.2);
+    width:70%;
+}
+.fa{
+    font-size:10px;
+    padding:12px 15px;
+    border-radius:8px;
+    background-color:#0f8cc5;
+    color:white;
+    border:none;
+    box-shadow:none;
+    margin-left:7px;
+    width:25%;
+}
+.article-image{
+    width:100%;
+    height:400px;
+    object-position:top;
+    object-fit:cover;
+    border-radius:10px;
+    cursor:pointer;
+}
+.profile{
+    padding:10px 20px 25px 20px;
+    margin:30px 20px 20px 20px;
+    border-radius:10px;
+    box-shadow:0px 0px 20px 2px #c5c5c5;    
+}
+.warning{
+    color:rgb(202, 89, 89);
+    margin-left:30px;
+    display:none;
+}
+
+footer{
+    background-color:#0c3c52;
+    color:white;
+    text-align:center;
+    padding:15px 0px
+}
+table{
+    font-size:14px;
+    color:#6d6d6d;
+    width:100%;
+}
+.jutsu{
+    color:brown;
+    font-size:18px;
+    display:none;
+    margin-left:30px;
+}
+.link{
+    color:burlywood;
+}
+.link:hover{
+    color:darkorange;
+}
+.owner{
+    color:grey;
+    text-align:center;
+}
+.ownerphoto{
+    border-radius:100%;
+    box-shadow:0px 0px 20px 1px #cfcfcf;
+    width:70%;
+    margin-bottom:15px;
+}
+td{
+    padding:5px 0px
+}

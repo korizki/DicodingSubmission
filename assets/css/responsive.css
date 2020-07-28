@@ -1,0 +1,20 @@
+/* Pengaturan Tampilan Responsive */ 
+@media screen and (max-width:1000px) {
+    #content{
+        width:100%;
+        padding:0;
+    }
+    aside{
+        width:100%;
+        padding:0;
+    
+    }
+    section{
+        text-align:center;
+    }
+}
+@media screen and (max-width:563px) {
+    li{
+        margin:5px;
+    }
+}
